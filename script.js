@@ -7,3 +7,7 @@ document.getElementById("zerodha-navbar-logo").addEventListener("click" , () => 
 document.getElementById("menu-bar-logo").addEventListener("click", () => {
     window.location.href = "https://github.com/Shubhashish-Chakraborty/Zerodha-Landing-Page";
 });
+
+document.getElementById("signup-button").addEventListener("click", () => {
+    window.location.href = "https://github.com/Shubhashish-Chakraborty/Zerodha-Landing-Page";
+});
