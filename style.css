@@ -11,6 +11,7 @@
     vertical-align: middle;
     position: relative;
     top: 18px;
+    cursor: pointer;
 }
 
 .navbar-links a{ /*Navbar Links*/
@@ -26,6 +27,10 @@
 
 .navbar-links a:hover { /*Style on Hovering the Navbar Links*/
     color: #387ed1;
+}
+
+#menu-bar-logo { /*Menu Button of the Navbar , Added Cursor Pointer*/
+    cursor: pointer;
 }
 
 .navbar { /*Navbar Div*/
