@@ -91,3 +91,20 @@
 
     color: #424242;
 }
+
+.signup-button-div { /*Signup Button Div Centering*/
+    display: flex;
+    justify-content: center;
+}
+
+#signup-button { /*Sign Up button Styling*/
+    font-size: 1.2em;
+    font-weight: 500;
+
+    background-color: #387ed1;
+    color: white;
+    margin: 25px 0px 0px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
