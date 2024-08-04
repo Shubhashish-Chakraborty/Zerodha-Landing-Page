@@ -113,3 +113,73 @@
 #signup-button:hover {
     background-color: black;
 }
+
+.middle-main-container { /*Styling of middle container*/
+    
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+#right-image {
+    max-width: 100%;
+    width: auto;
+}
+
+.left-stuff-div h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #424242;
+}
+
+
+.paras-div h4 {
+    font-size: 1.25rem;
+
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    color: #424242;
+}
+
+.paras-div p {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    color: #666;
+
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.paras-div a {
+    text-decoration: none;
+    color: #387ed1;
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center a {
+    margin: 16px 0px 15px;
+    text-decoration: none;
+    color: #387ed1;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.right-stuff-div i {
+    margin-left: 8px;
+}
