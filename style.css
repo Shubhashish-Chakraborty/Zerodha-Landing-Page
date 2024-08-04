@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#zerodha-navbar-logo { /*Zerodha Navbar Logo Styling*/
+    max-height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: 18px;
+}
+
+.navbar-links a{ /*Navbar Links*/
+    padding: 20px;
+    font-weight: 400;    
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+
+    /* Transition Added on Hovering the Navbar Links */
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-links a:hover { /*Style on Hovering the Navbar Links*/
+    color: #387ed1;
+}
+
+.navbar { /*Navbar Div*/
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: 2px 1px 2px #eee;    
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.navbar-links { /*Styling the Navbar links Div*/
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
