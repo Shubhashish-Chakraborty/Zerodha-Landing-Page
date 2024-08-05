@@ -191,3 +191,16 @@
 .right-stuff-div i {
     margin-left: 8px;
 }
+
+.redirecting-image-div {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.redirecting-image-div img {
+    max-width: 100%;
+    cursor: pointer;
+}
+

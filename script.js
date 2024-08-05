@@ -11,3 +11,7 @@ document.getElementById("menu-bar-logo").addEventListener("click", () => {
 document.getElementById("signup-button").addEventListener("click", () => {
     window.location.href = "https://github.com/Shubhashish-Chakraborty/Zerodha-Landing-Page";
 });
+
+document.querySelector("#redirectingImage").addEventListener("click" , () => {
+    window.open("https://zerodha.com/media" , "_blank")
+})
